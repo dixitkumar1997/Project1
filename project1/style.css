@@ -1,0 +1,457 @@
+body {
+    background-color: black;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.nav>img {
+    width: 10%;
+    color: rgba(0, 0, 0, .2);
+    margin-left: 100px;
+
+}
+
+.main .first {
+    height: 345px;
+    margin: auto;
+    width: 100%;
+    background-image: url("./c3146dda-460e-4679-aebb-4a6d25ceeb0a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -450px;
+}
+
+.nav>div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.navbar>a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.first h1 span {
+    color: orangered;
+}
+
+.first h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.para1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.para1 p {
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#firstbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn1 {
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-color: orangered;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.second {
+    /* border: 2px solid red; */
+    background-color: white;
+    height: 380px;
+}
+
+.about h1{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    height: 60px;
+    position: relative;
+    top: 25px;
+}
+
+.about span {
+    color: orangered;
+}
+
+.circle1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: relative;
+    top: 3.5px;
+}
+
+.line1 {
+    width: 100px;
+    border-bottom: 3px solid orangered;
+}
+
+.line2 {
+    width: 100px;
+    border-bottom: 3px solid orangered;
+}
+
+.underline {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#picsection{
+    display: flex;
+    justify-content: center;
+}
+.para2{
+    width: 60%;
+    margin-left: 10px;
+}
+.img2{
+    width: 20%;
+    background-image: url("./3d1898a8903b408973044f3e5c153d9f.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-top: 20px;
+}
+.para2 p{
+    color: black;
+}
+.para2 button{
+    background-color: orangered;
+    border-radius: 6%;
+    border: none;
+    color: white;
+    height: 25px;
+    margin-left: 2px;
+}
+.nav2{
+    position: relative;
+    top: 163px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 67px;
+
+}
+.nav2 h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+.logo .fa-brands{
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+}
+.logo{
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+#third{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)), url("https://myfacility.io/wp-content/uploads/2022/07/Neues-Projekt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#third h2{
+    margin-top: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 100px;
+}
+.youlogo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+#third .fa-solid{
+    padding:10px 20px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+#fourth{
+    height: 400px;
+    background-color: white;
+}
+.about2 h1{
+    width: 250px;
+   height: 35px;
+}
+.underline2{
+    position: relative;
+    top: 28px;
+}
+.line1_2{
+    width:140px ;
+}
+.section1{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+.section1a{
+    width: 30%;
+}
+.section1a .fa-solid{
+display: flex;
+justify-content: center;
+color: red;
+}
+.section1a h3{
+    text-align: center;
+}
+.section1a p{
+    text-align: center;
+}
+#fifth{
+    height: 750px;
+    background-color: white;
+}
+.about3 h1{
+    width: 350px;
+    height: 35px;
+}
+.underline3{
+    margin-top: 25px;
+}
+.line1_3{
+    width: 160px;
+}
+.words{
+    width: 30%;
+    margin:15px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.words span{
+    font-size: 12px;
+}
+.photo1{
+    width: 30%;
+}
+.photo1 img{
+    width: 100%;
+}
+#photos{
+margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about4{
+    margin-top: 35px;
+}
+#photos2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.photo2{
+    width: 22%;
+}
+.photo2 img{
+width: 100%;
+}
+#sixth{
+    width: 100%;
+    height: 250px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./laptop.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#passport img{
+    border-radius: 50%;
+    width: 70px;
+    
+}
+#passport{
+    display: flex;
+justify-content: center;
+position: relative;
+top: 35px;
+}
+.section2{
+    width: 40%;
+    margin: auto;
+}
+.section2 h2{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+}
+.section2 p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+#seventh{
+    width: 100%;
+    height: 543px;
+    background-color: white;
+}
+.about5{
+    margin: auto;
+width: 250px;
+height: 50px;
+}
+.about5 h1{
+    text-align: center;
+    height: 35px;
+    width: 250px;
+}
+.underline5{
+    position: relative;
+    top: 10px;
+}
+.line1_4{
+    width: 135px;
+}
+#A4{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.A4_1{
+    border: 2px solid gray;
+    height: 420px;
+    width: 30%;
+}
+.A4_1 img{
+width: 100%;
+height: 180px;
+}
+.A4_1 h2{
+    margin-left: 10px;
+}
+.A4_1 p{
+    margin-left: 10px;
+    text-align: left;
+}
+.A4_1 button{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+#eighth{
+    height: 320px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./laptop.avif");
+    background-size: cover;
+}
+.name{
+    width: 400px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 25px;
+}
+.input{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.input3{
+    width: 80%;
+    margin: auto;
+}
+#name1{
+    color: white;
+   border: 1px solid white;
+   background: transparent;
+   width: 846px; 
+   margin-top: 25px;
+   height: 100px;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.btn2{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn2 button{
+    color: white;
+    background-color: orangered;
+    height: 30px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 150px;
+}
+#ninth{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0,0,0.1)
+}
+.logo2{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 22px;
+    width: 20%;
+    margin-left: 80px;
+}
+.copy{
+    color: white;
+    margin-right: 50px;
+}
