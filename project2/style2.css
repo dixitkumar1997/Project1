@@ -1,0 +1,502 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+#main{
+    width: 80%;
+    margin: auto;
+}
+.nav{
+    height: 55px;
+    width: 58%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 320px;
+    align-items: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-solid{
+    color: white;
+    margin-top: 1px;
+}.nav button{
+    background-color: yellow;
+    color: black;
+    width: 95px;
+    height: 35px;
+}
+#first{
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 30%;
+    height: 300px;
+}
+.left button{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 25px;
+}
+.left p{
+    font-size: 12px;
+}
+.right{
+    
+    width: 63%;
+    height: 300px;
+    background-color: white;
+}
+#btn{
+    margin-right: 65px;
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    align-items: center;
+    border: 1px solid yellow;
+}
+.btnright .fa-solid{
+    color: black;
+}
+.one{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btnleft h4{
+    text-align: start;
+    width: 160px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 900;
+}
+.btnleft h6{
+    text-align: start;
+    margin-top: 4px;
+}
+.two h4{
+    margin-left: 25px;
+}
+.threeleft img{
+    width: 21%;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    position: relative;
+    top: 10px;
+    
+}
+.images{
+    display: flex;
+    
+}
+.threeright .top .stars{
+    width: 40%;
+display: flex;
+justify-content: space-around;
+}
+.stars .fa-solid{
+    color: green;
+}
+.three{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.threeleft{
+    width: 40%;
+}
+.threeright{
+    width: 40%;
+    position: relative;
+    top: 10px;
+}
+#second{
+    height: 600px;
+    background-color: white;
+}
+.action .fa-solid{
+    padding-top: 16px;
+    padding-left: 13px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+.belowleft .fa-solid{
+    font-size: 50px;
+    color: black;
+    margin-left: 170px;
+
+}
+#second h1{
+text-align: center;
+padding-top: 35px;
+}
+#second .p1{
+    text-align: center;
+}
+.below{
+    padding-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.belowleft{
+    width: 40%;
+}
+.belowleft h3 {
+    text-align: center;
+}
+.belowleft button{
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 140px;
+    background-color: black;
+    height: 25px;
+}
+.belowleft p{
+text-align: center;
+font-size: 12px;
+}
+.belowright{
+    width: 50%;
+}
+.belowright .fa-solid{
+    font-size: 50px;
+    color: black;
+    margin-left: 240px;
+}
+.belowright h3 {
+    text-align: center;
+}
+.belowright p{
+    text-align: center;
+font-size: 12px;
+}
+.belowright button{
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 200px;
+    background-color: black;
+    height: 25px;
+}
+#third{
+    background-color: #050A30;
+    height: 480px;
+}
+#third h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    padding-top: 45px;
+    color: white;
+}
+.img1{
+    background-color: white;
+    width: 16%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img1 img{
+padding-top: 24px;
+padding-left: 17px;
+    width: 80%;
+}
+.img2{
+    background-color: white;
+    width: 16%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img2 img{
+    padding-top: 10px;
+padding-left: 17px;
+    width: 80%;
+}
+.img3{
+    background-color: white;
+    width: 16%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img3 img{
+    padding-top: 15px;
+    padding-left: 17px;
+        width: 80%;
+}
+.img4{
+    background-color: white;
+    width: 16%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img4 img{
+    padding-top: 22px;
+    padding-left: 17px;
+        width: 80%;
+}
+.firstline{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+#third h2{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 70px;
+}
+.img5{
+    background-color: white;
+    width: 30%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img5 img{
+    padding-top: 3px;
+    padding-left: 17px;
+        width: 70%;
+}
+.img6{
+    background-color: white;
+    width: 30%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img6 img{
+    padding-top: 3px;
+    padding-left: 22px;
+        width: 70%;
+}
+.img7{
+    background-color: white;
+    width: 30%;
+    height: 80px;
+    border: 1px ;
+    outline: auto;
+}
+.img7 img{
+    padding-top: 22px;
+    padding-left: 25px;
+        width: 70%;
+}
+.secondline{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 40px auto;
+
+}
+#fourth{
+    width: 100%;
+    background-color: yellow;
+    height: 150px;
+}
+#fourth h1{
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+#fourth p{
+    padding-left: 50px;
+}
+#fifth{
+    width: 100%;
+    height: 580px;
+    background-color: white;
+}
+#fifth h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.img20{
+    background-color: white;
+    width: 18%;
+    height: 80px;
+    border: thick double rgba(0,0,0,0.1);
+}
+.img20 img{
+    padding-top: 8px;
+    padding-left: 25px;
+        width: 70%;
+}
+.fifthbelow{
+    height: 380px;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+}
+#sixth{
+    width: 100%;
+    background-color: white;
+    height: 450px;
+}
+.sixthbelow{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.blog{
+    text-align: center;
+    margin-top: 0px;
+}
+.sixthbelow .bg1{
+    width: 32%;
+    height: 300px;
+background-image: url("./ututrustkb-scaled.jpg");
+background-size: 100% 100%;
+}
+.bg1 button{
+    border: 1px solid yellow;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.bg1 h4{
+    color: white;
+    padding-left:20px;
+    padding-top: 140px;
+    margin-bottom: 0px;
+    font-size: 14px;
+
+}
+ .check{
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    padding-left: 19px;
+    text-align: start;
+
+   
+}
+.sixthbelow{
+    width: 90%;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 485px;
+    margin-top: 20px;
+}
+#seventh{
+    height: 150px;
+    width: 100%;
+    background-color: yellow;
+}
+.seventhleft{
+    width: 40%;
+    margin-left: 40px;
+}
+.seventhleft h5{
+    margin: 0px;
+    font-size: 16px;
+}
+.seventhright{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: 40px;
+}
+.seventhright1 input{
+    width: 250px;
+    height: 20px;
+}
+.seventhright2 button{
+background-color: black;
+color: white;
+height: 25px;
+width: 100px;
+}
+#seventh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#eighth{
+    background-color: black;
+    height: 200px;
+}
+.eighth1 h1{
+    color: white;
+    margin-top: 80px;
+}
+.text1{
+    color: white;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+.clrtext{
+    color: #FFB300;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+.fa-brands{
+    color: white;
+}
+.eighth3{
+    margin-top: 20px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.hori{
+    border-color: #FFB300;
+}
+#ninth{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.ninth1{
+    color: white;
+    font-size: 18px;
+}
+.ninth2{
+    margin-top: 25px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
